@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+.treedbuttons_main {
+    min-height: 60vh;
+    margin-top: 5em;
+}
+
+.treedbutton_component {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.treedbutton_center a {
+    display: inherit;
+    width: 250px;
+    height: 50px;
+    color: #7b6152;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #7b6152;
+    transition: .5s;
+    transform: skew(15deg);
+}
+
+@media (hover: hover) {
+ .treedbutton_center a:hover {
+    background-color: #7b6152;
+    color: #fff;
+ }
+}
+
+.treedbutton_center span:nth-child(1)
+{
+    position: absolute;
+    width: 15px;
+    height: 105%;
+    border: 2px solid #7b6152;
+    background: white;
+    top: 5px;
+    left: -16px;
+    transform: skewY(-45deg);
+}
+
+.treedbutton_center span:nth-child(2)
+{
+    position: absolute;
+    width: 102%;
+    height: 15px;
+    border: 2px solid #7b6152;
+    background: white;
+    bottom: -16px;
+    right: 6px;
+    transform: skewX(-45deg);
+    box-shadow: 0 40px 25px rgba(0, 0, 0, .1);
+}
+
+
+
+.treedbuttons_headline h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+    z-index: 1200;
+}
+
+@media screen and (max-width: 768px) {
+    .treedbuttons_headline h1 {
+        font-size: 25px;
+    }
+    .treedbutton_center a {
+        font-size: 20px;
+        width: 200px;
+    }
+}

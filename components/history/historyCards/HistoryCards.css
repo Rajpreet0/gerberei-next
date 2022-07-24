@@ -1,0 +1,53 @@
+.historycards_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-height: 100vh;
+}
+
+.historycards_container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.historycards_container .historycards_card {
+    position: relative;
+    max-width: 300px;
+    height: 420px;
+    background: #fefefe;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.historycards_imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+}
+
+.historycards_imgBx img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.historycards_container .historycards_card .historycards_content {
+    position: relative;
+    margin-top: -40px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    transition: 0.3s ease-in-out;
+}
+

@@ -1,0 +1,173 @@
+.event_main {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.event_header_text h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    font-family: 'Dancing Script', cursive;
+}
+
+.event_header_text {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.event_section {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.event_content{
+    margin: 2rem 1.2rem;
+    width: 60rem;
+    position: relative;
+}
+
+.event_img {
+    overflow: hidden;
+}
+
+.event_img img {
+    width: 115%;
+    transition: all .5s;
+}
+
+.event_img img:hover {
+    transform: scale(1.2);
+    filter: brightness(.8s);
+}
+
+.event_content_text {
+    width: 38rem;
+    padding: 2.5rem;
+    box-shadow: 0 6rem 4rem -1rem rgba(122, 122, 122, 0.295);
+    background: rgba(255, 255, 255, 0.874);
+    position: absolute;
+    top: 3.22rem;
+    right: 4rem;
+}
+
+.event_menu h4 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #182731;
+    line-height: 1.2;
+}
+
+.event_menu h4::after {
+    content: "";
+    display: block;
+    width: 16rem;
+    height: 4px;
+    background: #7b6152;
+}
+
+.event_detail {
+    margin: 1.2rem 0;
+    list-style-type: none;
+}
+
+
+.event_detail li {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.event_detail li span {
+    font-size: 1.6rem;
+}
+
+.event_text h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #062d49;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+
+.event_text p {
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+@media  screen and (max-width: 767px) {
+    .event_section{
+        margin: 3rem 0;
+    }
+    .event_content_text {
+        padding: 2.5rem;
+    }
+    .event_menu h4{
+        font-size: 2.5rem;
+    }
+    .event_menu h4::after {
+        width: 10rem;
+    }
+    .event_text h4 {
+        font-size: 2rem;
+    }
+}
+
+@media  screen and (max-width: 774px) {
+    .event_section{
+        margin: 1rem 0;
+    }
+    .event_content_text {
+        padding: 1.0rem;
+        width: 25rem;
+    }
+    .event_menu h4{
+        font-size: 1.5rem;
+    }
+    .event_menu h4::after {
+        width: 5rem;
+    }
+    .event_text h4 {
+        font-size: 1rem;
+    }
+    .event_text p {
+        max-width: 200px;
+    }
+    .event_detail li {
+        font-size: 1.2rem;
+    }
+    .event_detail li span {
+        font-size: 1.2rem;
+    }
+}
+
+@media  screen and (max-width: 512px) {
+    .event_section{
+        margin: 0.8rem 0;
+    }
+    .event_content_text {
+        padding: 1.0rem;
+        width: 15rem;
+    }
+    .event_menu h4{
+        font-size: 1.2rem;
+    }
+    .event_menu h4::after {
+        width: 4rem;
+    }
+    .event_text h4 {
+        font-size: 0.9rem;
+    }
+    .event_text p {
+        max-width: 210px;
+        font-size: 0.8rem;
+    }
+    .event_detail li {
+        font-size: 1.0rem;
+    }
+    .event_detail li span {
+        font-size: 0.8rem;
+    }
+}

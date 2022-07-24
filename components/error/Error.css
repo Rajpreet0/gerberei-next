@@ -1,0 +1,148 @@
+.error_wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.error_main {
+    background: url('../../images/error_background.jpg');
+    background-size: cover;
+    height: 100vh;
+    z-index: 0;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.error_main:before {
+   content: "";
+   background: rgba(0, 0, 0, 0.45);
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   min-height: 100%;
+   z-index: -1;
+}
+
+.error_errors-top {
+    max-width: 600px;
+    margin: 50px;
+}
+
+.error_errors-top h3 {
+    font-size: 200px;
+    line-height: 180px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.error_errors-top p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
+
+.error_social-icons a {
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 11px;
+ /*   border-radius: 2px solid #fff; */
+    color: #fff;
+}
+
+.error_social-icons a span {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/*
+.error_social-icons a:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s ease;
+}*/
+
+.error_copyright-footer {
+    margin-top: 60px auto 0;
+    margin: 50px;
+}
+
+.error_copy-right p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #f2f2f2;
+}
+
+.error_copy-right p a {
+    text-decoration: none;
+    color: #f2f2f2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.error_copy-right p a:hover{
+    text-decoration: underline;
+}
+
+@media(min-width: 576px){
+    .error_wrapper {
+        max-width: 540px;
+    }
+}
+
+@media(min-width: 768px){
+    .error_wrapper {
+        max-width: 720px;
+    }
+}
+
+@media(min-width: 992px){
+    .error_wrapper {
+        max-width: 960px;
+    }
+}
+
+@media(min-width: 1200px){
+    .error_wrapper {
+        max-width: 1140px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .error_errors-top h3 {
+        font-size: 160px;
+        line-height: 150px;
+    }
+}
+
+@media(max-width: 990px) {
+    .error_errors-top h3 {
+        font-size: 125px;
+        line-height: 110px;
+    }
+}
+
+@media(max-width: 667px) {
+    .error_errors-top h3 {
+        font-size: 115px;
+        line-height: 110px;
+    }
+}
+
+@media(max-width: 600px) {
+    .error_main{
+        background: url('../../images/error_background.jpg') no-repeat right;
+        background-size: cover;
+    }
+}
