@@ -1,5 +1,4 @@
 import React from 'react'
-import Background from '../../../images/Background.jpg'
 
 import Wasserwerkstatt from '../../../images/geschichte/wasserwerkstatt.png';
 import Gerbung from '../../../images/geschichte/gerbung.png';
