@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['Nunito', 'sans-serif']
+        nunito: ['Nunito', 'sans-serif'],
+        dancing: ['Dancing Script', 'cursive'],
       }
     },
   },
